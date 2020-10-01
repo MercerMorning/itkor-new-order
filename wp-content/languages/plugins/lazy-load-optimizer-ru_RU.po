@@ -1,0 +1,189 @@
+# Translation of Plugins - Lazy Load Optimizer - Development (trunk) in Russian
+# This file is distributed under the same license as the Plugins - Lazy Load Optimizer - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-05-04 06:55:37+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Lazy Load Optimizer - Development (trunk)\n"
+
+#: views/admin/section/exception-settings.php:64
+msgid "Post Tags"
+msgstr "Метки постов"
+
+#: views/admin/section/exception-settings.php:58
+msgid "Post Categories"
+msgstr "Категории постов"
+
+#: views/admin/section/exception-settings.php:52
+msgid "Pages"
+msgstr "Страницы"
+
+#: views/admin/section/exception-settings.php:46
+msgid "Posts"
+msgstr "Записи"
+
+#: views/admin/section/exception-settings.php:40
+msgid "Front Page"
+msgstr "Главная страница"
+
+#: views/admin/section/exception-settings.php:35
+msgid "Exclude pages by page type"
+msgstr "Исключение страниц сайта"
+
+#: views/admin/section/main-settings.php:10
+msgid "Appearance settings"
+msgstr "Настройки отображения"
+
+#: src/Admin/Admin.php:94
+msgid "General"
+msgstr "Настройки"
+
+#: src/Admin/Admin.php:95
+msgid "Exceptions settings"
+msgstr "Настройки исключений"
+
+#: views/admin/section/exception-settings.php:25
+msgid "Exclude pages by URI"
+msgstr "Исключить страницы по URL"
+
+#: views/admin/section/exception-settings.php:29
+msgid "Add parts of URLs (e.g. category), 1 per line, that are to be excluded from Lazy Load."
+msgstr "Добавьте фрагменты URL для отключения плагина на этих страницах (н-р category)"
+
+#: views/admin/section/main-settings.php:35
+msgid "enable"
+msgstr "включить"
+
+#: views/admin/section/main-settings.php:29
+msgid "lazy loading for iframes"
+msgstr "Ленивая загрузка iframe"
+
+#: views/admin/section/exception-settings.php:19
+msgid "CSS classes to exclude them from lazy loading (comma separated, e.g. class-1,class-2)."
+msgstr "CSS классы изображений для их исключения, разделенные запятой (н-р class-1,class-2)"
+
+#: views/admin/section/exception-settings.php:15
+msgid "CSS classes to exclude"
+msgstr "CSS классы для отмены загрузки"
+
+#: views/admin/section/main-settings.php:66
+msgid "load"
+msgstr "загружать"
+
+#: views/admin/section/main-settings.php:76
+msgid "Init lazysizes"
+msgstr "Активация lazysizes"
+
+#: views/admin/section/main-settings.php:82
+msgid "init"
+msgstr "активировать"
+
+#: views/admin/section/main-settings.php:86
+msgid "By default lazysizes initializes itself, to load in view assets as soon as possible. In the unlikely case you need to setup/configure something with a later script you can set this option to <code>false</code> and call <code>lazySizes.init();</code> later explicitly."
+msgstr "По умолчанию скрипт ленивой загрузки lazysizes загружается как можно скорее. Вы можете отключить эту опцию и инициализировать скрипт там, где вам нужно, вызвав <code>lazySizes.init();</code> ."
+
+#: views/admin/section/main-settings.php:50
+msgid "Exp. Factor (default: 1.5)"
+msgstr "Exp. Factor (по умолчанию: 1.5)"
+
+#: views/admin/section/main-settings.php:54
+msgid "The <code>expFactor</code> is used to calculate the \"preload expand\", by multiplying the normal expand with the expFactor which is used to preload assets while the browser is idling (no important network traffic and no scrolling). (Reasonable values are between 1.5 and 4 depending on the expand option)."
+msgstr "The <code>expFactor</code> is used to calculate the \"preload expand\", by multiplying the normal expand with the expFactor which is used to preload assets while the browser is idling (no important network traffic and no scrolling). (Reasonable values are between 1.5 and 4 depending on the expand option)."
+
+#: views/admin/main.php:9
+msgid "Lazy Load Optimizer settings"
+msgstr "Настройки Lazy Load Optimizer"
+
+#: views/admin/section/main-settings.php:23
+msgid "in the Customizer"
+msgstr "в Customizer"
+
+#: views/admin/section/main-settings.php:60
+msgid "Load hidden images"
+msgstr "Загружать скрытые изображения"
+
+#: views/admin/section/main-settings.php:70
+msgid "Wether to load visibility: hidden elements."
+msgstr "Загружать visibility: hidden элементы"
+
+#: views/admin/section/main-settings.php:41
+msgid "Expand (default: 370-500)"
+msgstr "Expand (по умолчанию: 370-500)"
+
+#: views/admin/section/main-settings.php:45
+msgid "The <code>expand</code> option expands the calculated visual viewport area in all directions, so that elements can be loaded before they become visible. The default value is calculated depending on the viewport size of the device. (Note: Reasonable values are between <code>300</code> and <code>1000</code> (depending on the <code>expFactor</code> option.) In case you have a lot of small images or you are using the LQIP pattern you can lower the value, in case you have larger images set it to a higher value. Also note, that lazySizes will dynamically shrink this value to 0 if the browser is currently downloading and expand it if the browser network is currently idling and the user not scrolling (by multiplying the expand option with 1.5 (expFactor)). This option can also be overridden with the <code>[data-expand]</code> attribute."
+msgstr "The <code>expand</code> option expands the calculated visual viewport area in all directions, so that elements can be loaded before they become visible. The default value is calculated depending on the viewport size of the device. (Note: Reasonable values are between <code>300</code> and <code>1000</code> (depending on the <code>expFactor</code> option.) In case you have a lot of small images or you are using the LQIP pattern you can lower the value, in case you have larger images set it to a higher value. Also note, that lazySizes will dynamically shrink this value to 0 if the browser is currently downloading and expand it if the browser network is currently idling and the user not scrolling (by multiplying the expand option with 1.5 (expFactor)). This option can also be overridden with the <code>[data-expand]</code> attribute."
+
+#: src/Admin/Customizer.php:101
+msgid "Transparent background"
+msgstr "Прозрачный фон"
+
+#: src/Admin/Customizer.php:94
+msgid "Background color"
+msgstr "Цвет фона изображения"
+
+#: src/Admin/Customizer.php:83
+msgid "Animation time (ms)"
+msgstr "Время анимации (мс)"
+
+#: src/Admin/Customizer.php:64
+msgid "Spinner size (px)"
+msgstr "Размер спиннера загрузки (пиксели)"
+
+#: src/Admin/Customizer.php:57
+msgid "Spinner image"
+msgstr "Изображение спиннера"
+
+#: src/Admin/Customizer.php:46
+msgid "Loading effects"
+msgstr "Эффекты загрузки изображения"
+
+#. Plugin URI of the plugin
+msgid "https://processby.com/lazy-load-wordpress/"
+msgstr "https://processby.com/lazy-load-wordpress/"
+
+#: src/Admin/Admin.php:67
+msgid "Settings"
+msgstr "Настройки"
+
+#: src/Admin/Customizer.php:34
+msgid "Lazy load Settings"
+msgstr "Настройки Lazy Load"
+
+#: src/Admin/Customizer.php:51
+msgid "Spinner"
+msgstr "Спиннер"
+
+#: src/Admin/Customizer.php:75
+msgid "Fade in"
+msgstr "Плавное появление"
+
+#: views/admin/section/main-settings.php:23
+msgid "View Lazy Load Optimizer settings"
+msgstr "Перейти к настройкам плагина Lazy Load Optimizer"
+
+#: src/Admin/Customizer.php:109
+msgid "Donate to this plugin"
+msgstr "Пожертвуйте на улучшение плагина"
+
+#. Description of the plugin
+msgid "Lazy loading images to speed up sites page load speed."
+msgstr "Добавляет ленивую загрузку для изображений, что позволяет увеличить скорость загрузки страниц вашего сайта."
+
+#. Author URI of the plugin
+msgid "https://processby.com/"
+msgstr "https://processby.com/"
+
+#. Author of the plugin
+msgid "Processby"
+msgstr "Processby"
+
+#. Plugin Name of the plugin
+#: src/Admin/Admin.php:66 src/Admin/Admin.php:78 src/Admin/Admin.php:79
+msgid "Lazy Load Optimizer"
+msgstr "Lazy Load Optimizer"

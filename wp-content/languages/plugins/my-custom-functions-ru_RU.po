@@ -1,0 +1,161 @@
+# Translation of Plugins - My Custom Functions - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - My Custom Functions - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-08-11 13:40:51+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - My Custom Functions - Stable (latest release)\n"
+
+#: inc/php/tabs/support.php:49
+msgid "Thank you for your support!"
+msgstr "Спасибо за вашу поддержку!"
+
+#: inc/php/page.php:47
+msgid "Store"
+msgstr "Магазин"
+
+#: inc/php/tabs/faq.php:390
+msgid "My question wasn't answered here."
+msgstr "Моего вопроса здесь нет."
+
+#: inc/php/sidebar.php:49
+msgid "If you have a question, please read the information in the FAQ section."
+msgstr "Если у вас есть вопрос, пожалуйста ознакомьтесь с информацией в разделе FAQ."
+
+#: inc/php/tabs/usage.php:36
+msgid "Switch the toggle to the \"ON\" position."
+msgstr "Переключите переключатель в положение «ON»."
+
+#: inc/php/tabs/usage.php:37
+msgid "Click the \"Save changes\" button."
+msgstr "Нажмите кнопку «Сохранить изменения»."
+
+#: inc/php/tabs/faq.php:17
+msgid "If you have a question, please read the Frequently Asked Questions below to see if the answer is here."
+msgstr "Если у вас есть вопрос, пожалуйста, прочтите часто задаваемые вопросы."
+
+#: inc/php/page.php:36
+msgid "Version"
+msgstr "Версия"
+
+#: inc/php/tabs/faq.php:247
+msgid "What to do if this plugin crashed the website?"
+msgstr "Что делать, если этот плагин сломал сайт?"
+
+#: inc/php/tabs/faq.php:153
+msgid "Does this plugin requires any modification of the theme?"
+msgstr "Этот плагин требует изменения темы?"
+
+#: inc/php/tabs/faq.php:161
+msgid "Does this require any knowledge of HTML or CSS?"
+msgstr "Требуются ли какие-либо знания HTML или CSS?"
+
+#: inc/php/tabs/faq.php:290
+msgid "Where to report bug if found?"
+msgstr "Где можно сообщить об ошибке?"
+
+#: inc/php/tabs/faq.php:319
+msgid "Where to share any ideas or suggestions to make the plugin better?"
+msgstr "Где можно поделиться идеями или предложениями, чтобы сделать плагин лучше?"
+
+#: inc/php/tabs/faq.php:130
+msgid "Can I use HTML/CSS/JS code integrated in PHP code?"
+msgstr "Можно ли использовать HTML/CSS/JS код, встроенный в PHP-код?"
+
+#: inc/php/tabs/faq.php:211
+msgid "Here are a few of the most likely causes of the error message:"
+msgstr "Вот некоторые из наиболее вероятных причин появления сообщение об ошибке:"
+
+#: inc/php/tabs/settings.php:64 inc/php/tabs/support.php:21
+#: inc/php/sidebar.php:63
+msgid "Donate with PayPal"
+msgstr "Пожертвовать через Pay Pal"
+
+#: inc/php/messages.php:90
+msgid "You have installed an old version of this plugin."
+msgstr "Вы установили устаревшую версию этого плагина."
+
+#: inc/php/messages.php:91
+msgid "Please update the plugin to the latest version, and all will be fine."
+msgstr "Пожалуйста, обновите плагин до последней версии и всё будет отлично."
+
+#: inc/php/page.php:43
+msgid "Main"
+msgstr "Главная"
+
+#: inc/php/page.php:44
+msgid "Usage"
+msgstr "Применение"
+
+#: inc/php/page.php:45
+msgid "F.A.Q."
+msgstr "F.A.Q."
+
+#: inc/php/tabs/settings.php:57 inc/php/sidebar.php:56 inc/php/page.php:46
+msgid "Support"
+msgstr "Поддержка"
+
+#: inc/php/tabs/usage.php:22 inc/php/tabs/usage.php:26
+msgid "Note!"
+msgstr "Примечание!"
+
+#: inc/php/tabs/faq.php:13
+msgid "Frequently Asked Questions"
+msgstr "Часто задаваемые вопросы"
+
+#: inc/php/tabs/faq.php:95
+msgid "Can I use this plugin on my language?"
+msgstr "Можно ли использовать этот плагин на моём языке?"
+
+#: inc/php/core.php:40
+msgid "Upgrade to PRO"
+msgstr "Обновить до PRO"
+
+#: inc/php/tabs/faq.php:126 inc/php/tabs/usage.php:38
+msgid "It's that simple!"
+msgstr "Это так просто!"
+
+#: inc/php/tabs/faq.php:121
+msgid "How does it work?"
+msgstr "Как это работает?"
+
+#: inc/php/tabs/settings.php:30
+msgid "Functions (PHP code)"
+msgstr "Функции (PHP код)"
+
+#: inc/php/core.php:32
+msgid "Settings"
+msgstr "Параметры"
+
+#: inc/php/tabs/settings.php:66 inc/php/sidebar.php:65
+msgid "Thanks for your support!"
+msgstr "Спасибо за вашу поддержку!"
+
+#: inc/php/tabs/settings.php:52
+msgid "Save changes"
+msgstr "Сохранить изменения"
+
+#: inc/php/core.php:61
+msgid "Donate"
+msgstr "Пожертвовать"
+
+#: inc/php/sidebar.php:47
+msgid "Help"
+msgstr "Помощь"
+
+#: inc/php/messages.php:146
+msgid "Sorry, but your code causes a \"Fatal error\", so it is not applied!"
+msgstr "Извините, но ваш код вызывает \"Fatal error\", так что он не будет применён!"
+
+#: inc/php/messages.php:147
+msgid "Please, check the code and try again."
+msgstr "Пожалуйста, проверьте код и попробуйте ещё раз."
+
+#: inc/php/sidebar.php:38
+msgid "About"
+msgstr "О плагине"
